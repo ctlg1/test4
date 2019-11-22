@@ -1,0 +1,104 @@
+*{
+	margin:0 ;
+	padding: 0;
+	background-color:#eff0f4 ;
+}
+
+.box{
+	background-color:#5fc0cd ;
+	width: 100%;
+	height: 5.625rem;
+	text-align: center;
+	margin-bottom: 0.625rem;
+	
+}
+	
+			.box a{
+				
+				/*去除下划线*/
+				text-decoration: none;
+				color: white;
+				font-size:1.25rem ;
+				text-align: center;
+				
+				
+			}
+			
+			.box1 a{
+				position: absolute;
+				left:1.875rem ;
+				top:2rem ;
+				background-color:#5fc0cd
+				}
+				
+				.box2 {
+					
+					text-align: center;
+					
+					background-color:#5fc0cd;
+					padding-top: 2rem;
+				}
+			.box2 a{
+					background-color:#5fc0cd;
+				
+				}
+			.box3 a{
+				position: absolute;
+				right:1.875rem ;
+				top:2rem ;
+				background-color:#5fc0cd
+			}
+		.input{
+			height: 6.875rem;
+			background-color:#FFFFFF ;
+			/*
+			 * 使图标垂直居中
+			 */
+			display: flex;
+	      align-items: center;
+	     margin-bottom: 0.625rem;
+		}	
+  .img{
+	background-color:#FFFFFF ;
+	width: 7.25rem;
+    float:left ;
+	text-align: center;
+	border-right:0.125rem solid #EFF0F4 ;
+	margin-right:2rem ;
+}
+ 
+/*控制兼容*/
+input::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+
+}
+  input{
+	font-size: 1.875rem;
+	border:none;
+	outline:none;
+	background-color:#FFFFFF ;
+	width: 15rem;
+	
+}
+
+    .under a{
+				margin-top:3.75rem ;
+				text-align: center;
+				background-color:#5fc0cd;
+				text-decoration: none;
+				color: white;
+				font-size:1.25rem ;
+				display: block;
+				padding: 2.5rem 0;
+				
+				}
+				
+			
+       #last{
+       	text-align: right;
+       	color: #5FC0CD;
+       	background-color:#EFF0F4;
+       	padding: 0;
+       	margin-top:0.625rem ;
+       }
